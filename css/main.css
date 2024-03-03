@@ -1,0 +1,61 @@
+/* MIS ESTILOS */
+
+	a:link {text-decoration: none; color: #ffffff;}
+	a:visited {text-decoration: none; color: #ffffff;}
+	a:hover {text-decoration: none;	color: #ffffff;}
+	a:active {text-decoration: none; color: #ffffff;}
+	.quitar_espacios	{display: block; margin:0}
+	
+	/* Declare heights because of positioning of img element */
+	.carousel-item { height: 270px;}
+	.carousel-item > img { position: absolute; top: 0; left: 0; min-width: 100%; height: 270px; }
+	
+	/* MIS COLORES DE FONDO REDUCIDOS AL 50% */
+	.bg-primary-50	 	{background-color: #7FBDFF !important;}			
+	.bg-success-50	 	{background-color: #93D3A2 !important;}				
+	.bg-info-50 		{background-color: #8BD0DB !important;}						
+	.bg-warning-50 		{background-color: #FFF5D9 !important;}					
+	.bg-danger-50 		{background-color: #ED9AA2 !important;}					
+	.bg-secondary-50 	{background-color: #B5BABE !important;}					
+	.bg-dark-50 		{background-color: #999C9F !important;}						
+
+	/* MIS COLORES DE FONDO REDUCIDOS AL 30% */
+	.bg-primary-30		{background-color: #B2D7FF !important;}			
+	.bg-success-30	 	{background-color: #BEE4C7 !important;}				
+	.bg-info-30 		{background-color: #DCF1F4 !important;}						
+	.bg-warning-30 		{background-color: #FFECB4 !important;}					
+	.bg-danger-30 		{background-color: #FAE1E3 !important;}					
+	.bg-secondary-30 	{background-color: #D3D5D8 !important;}										
+	.bg-dark-30 		{background-color: #E0E1E2 !important;}
+	
+	/* MIS COLORES DE FONDO REDUCIDOS AL 10% */
+	.bg-primary-10		{background-color: #E5F2FF !important;}			
+	.bg-success-10	 	{background-color: #E9F6EC !important;}				
+	.bg-info-10 		{background-color: #E7F6F8 !important;}						
+	.bg-warning-10 		{background-color: #FFF9E6 !important;}					
+	.bg-danger-10 		{background-color: #FBEAEC !important;}					
+	.bg-secondary-10 	{background-color: #F0F1F2 !important;}										
+	.bg-dark-10 		{background-color: #EAEBEC !important;}
+	
+	/* PRIMARY GRADIENTE */
+	.bg-success-uaass 	{background-color: #2472BC !important;}	
+	.bg-success-body	{background-color: #76B653 !important;}											
+	.bg-success-menu 	{background-color: #54A428 !important;}							
+
+	/* FOOTER SIEMPRE ABAJO Y SIN SUPERPONERSE */
+	* 					{margin:0;padding:0;}
+	.content 			{min-height: calc(100vh - 40px);/* 20px header + 10px footer = 120px  */}
+	footer 				{height:5px;}
+
+	#ModalSanValentin .modal-dialog {
+	position: fixed;
+	bottom:  0;
+	width:  100%;
+	margin:  0;
+}
+
+#ModalSanValentin .modal-content {
+	margin:  0;
+	padding:  0;
+	height:  100%;
+}

@@ -1,0 +1,20 @@
+ol, ul {
+	list-style: none;
+}
+
+#jq-siteBurst {margin:0 auto;width:500px;}
+
+.jq-overvlowContain{
+  display: block;
+  clear: both;
+  width: auto;
+  overflow:hidden;
+  height: auto;
+}
+
+#theProjects{height:120px;margin:0 0 100px 60px;width:300px; font-size:20px}
+
+.roundabout-moveable-item img{
+  height: 1em;
+  width: 1em
+}
